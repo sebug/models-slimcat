@@ -21,7 +21,7 @@ from __future__ import print_function
 import tensorflow.compat.v1 as tf
 import tf_slim as slim
 
-from tensorflow.contrib import quantize as contrib_quantize
+from tf.quantization import quantize as contrib_quantize
 
 from datasets import dataset_factory
 from deployment import model_deploy
